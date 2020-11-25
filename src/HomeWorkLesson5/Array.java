@@ -2,6 +2,7 @@ package HomeWorkLesson5;
 
 public class Array {
     public static void main(String[] args) {
+
         Employee[] persArray = new Employee[5];
         persArray[0] = new Employee("Petr","manager","Petr@gmail.com", 89991234545L, 1500,50);
         persArray[1] = new Employee("Fedor", "manager", "fedor@gmail.com", 89996662396L, 1650, 39);
@@ -14,5 +15,9 @@ public class Array {
                 System.out.println(persArray[i]);
 
         }
+
+
     }
+
+
 }
