@@ -14,5 +14,6 @@ public class Main {
         dog.getDogCount();
         cat.getCatCaunt();
 
+
     }
 }
